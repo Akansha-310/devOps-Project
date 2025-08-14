@@ -1,6 +1,6 @@
 # 🧱 Stage 1: Build environment
 # Use Node 18 LTS to ensure compatibility with react-scripts and postcss
-FROM node:18.20-alpine as build
+FROM node:18.20.3-alpine as build
 
 WORKDIR /app
 
